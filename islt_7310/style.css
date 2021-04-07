@@ -5,6 +5,7 @@ ul{
 }
  ul li{
      display: inline;
+     padding: 25px;   
  }
 h2 {color:#7C618F
 }
