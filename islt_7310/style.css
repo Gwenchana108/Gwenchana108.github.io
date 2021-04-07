@@ -1,5 +1,11 @@
 h1 {color:#7C618F;
 }
+h1 {
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 50px;
+}
 ul{
     list-style-type: none;
 }
@@ -9,7 +15,15 @@ ul{
  }
 h2 {color:#7C618F
 }
+h2 {
+    margin-right: 150px;
+    margin-left: 50px;
+}
 body {font-family: Arial, Helvetica, sans-serif;
 }
 footer {color: #7C618F;
+}
+footer {
+    margin-right: 150px;
+    margin-left: 50px;
 }
