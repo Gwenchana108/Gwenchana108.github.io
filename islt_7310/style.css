@@ -6,10 +6,10 @@ a {  color: #AD9C7F;
     style=text-decoration: none;
 }
 nav ul li{ display: inline-block;
+    padding-left: 100px;
 }
 nav ul{
     list-style-type: none;
-     display: inline-block;
      padding-left: 100px;  
      text-align: center;
      margin-left: 100px;
