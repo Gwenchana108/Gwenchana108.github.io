@@ -7,7 +7,7 @@ a {  color: #AD9C7F;
 a:hover {color: #7C618F 
 }
 nav a::before {
-    content: none;
+    content: '' ;
     display: block;
     height: 5px;
     background-color: #554561;
