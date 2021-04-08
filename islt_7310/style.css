@@ -4,7 +4,16 @@ h1 {color:#7C618F;
 a {  color: #AD9C7F;
     text-decoration: none;
 }
-a:hover {color: #90AD96 
+a:hover {color: #7C618F 
+}
+nav a::before {
+    content: none;
+    display: block;
+    height: 5px;
+    background-color: #554561;
+    position: absolute;
+    top: 0
+    width: 100%
 }
 nav { float: right
 }
