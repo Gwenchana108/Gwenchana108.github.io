@@ -7,6 +7,8 @@ a {  color: #AD9C7F;
 }
 nav { float: right;
 }
+ul li { display: inline-block;
+}
 nav ul{
     list-style-type: none;
      display: inline-block;
