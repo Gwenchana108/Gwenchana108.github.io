@@ -5,6 +5,8 @@ a {  color: #AD9C7F;
     
     style=text-decoration: none;
 }
+nav { float: right;
+}
 nav ul{
     list-style-type: none;
      display: inline-block;
