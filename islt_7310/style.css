@@ -4,12 +4,15 @@ h1 {color:#7C618F;
 a {  color: #AD9C7F;
     text-decoration: none;
 }
+a:hover {color: #90AD96 
+}
 nav { float: right
 }
 nav ul li{ display: inline-block;
     text-decoration: none;
     padding-left: 35px;
     padding-right: 15px;
+    position: relative;
 }
 nav ul{
     list-style-type: none;
