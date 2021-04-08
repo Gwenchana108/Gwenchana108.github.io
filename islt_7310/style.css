@@ -5,6 +5,8 @@ a {  color: #AD9C7F;
     
     style=text-decoration: none;
 }
+nav { float: right
+}
 nav ul li{ display: inline-block;
     padding-left: 100px;
 }
@@ -14,10 +16,11 @@ nav ul{
      text-align: center;
      margin-left: 100px;
  }
+ footer ul li { display: inline-block;
+    padding-left: 40px; 
+ }
 footer ul{
     list-style-type: none;
-     display: inline-block;
-     padding-left: 40px;  
      text-align: center;
  }
 h2 {color:#7C618F;
