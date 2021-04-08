@@ -1,9 +1,7 @@
 h1 {color:#7C618F;
-}
-h1 {
     padding-left: 100px;
 }
-a {    color: #AD9C7F;
+a {  color: #AD9C7F;
 }
 #toplinks{
     list-style-type: none;
@@ -19,14 +17,10 @@ ul li{
      text-align: center;
  }
 h2 {color:#7C618F;
-}
-h2 {
     margin-left: 500px;
 }
 body {font-family: Arial, Helvetica, sans-serif;
 }
 footer {color: #7C618F;
-}
-footer {
- padding-left: 50px;
+    padding-left: 50px;
 }
