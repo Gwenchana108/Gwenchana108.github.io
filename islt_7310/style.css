@@ -2,8 +2,10 @@ h1 {color:#7C618F;
     padding-left: 100px;
 }
 a {  color: #AD9C7F;
+    
+    style=text-decoration: none;
 }
-#toplinks{
+nav ul{
     list-style-type: none;
      display: inline-block;
      padding-left: 100px;  
