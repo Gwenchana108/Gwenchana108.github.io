@@ -1,29 +1,23 @@
 h1 {color:#7C618F;
     padding-left: 75px;
 }   
-a {  color: #AD9C7F;
+a { color: #AD9C7F;
     text-decoration: none;
 }
-a:hover {color: #554561
+a:hover {color: #554561;  
 }
 nav { float: right
 }
 nav ul li{ display: inline-block;
-    text-decoration: none;
+    list-style-type: none;
     padding-left: 35px;
     padding-right: 15px;
 }
-nav ul{
+footer ul li { display: inline-block;
     list-style-type: none;
-     padding-left: 100px;  
-     text-align: center;
-}
- footer ul li { display: inline-block;
-    text-decoration: none;
     padding-left: 40px; 
 }
 footer ul{
-    list-style-type: none;
      text-align: center;
 }
      footer {color: #7C618F;
