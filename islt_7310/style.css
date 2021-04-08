@@ -7,6 +7,7 @@ a {  color: #AD9C7F;
 nav { float: right
 }
 nav ul li{ display: inline-block;
+    text-decoration: none;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -16,6 +17,7 @@ nav ul{
      text-align: center;
  }
  footer ul li { display: inline-block;
+    text-decoration: none;
     padding-left: 40px; 
  }
 footer ul{
