@@ -13,18 +13,17 @@ nav ul li{
     float: left;
     list-style-type: none;
 }
-nav li p{color:#7C618F;
+nav p{color:#7C618F;
     font-family: Arial;
-    font-size: 24px;
+    font-size: 36px;
     line-height:  55px;
-    padding: 0px; 20px;   
+    padding: 0px 20px;  
     float: left;
 }
 nav ul li a {
     font-family: Arial;
     font-size: 24px;
-    line-height:  55px;
-    padding: 0px; 20px;   
+    padding: 24px 14px;  
     float: left;
 }
 a:hover {color: #554561;  

@@ -1,5 +1,6 @@
-{margin: 0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 h2 {color:#7C618F;
     margin-left: 500px;
