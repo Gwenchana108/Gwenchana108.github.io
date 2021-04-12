@@ -7,7 +7,7 @@ nav p{color:#7C618F;
     font-family: Arial;
     font-size: 24px;
     line-height:  55px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     float: left;
 }
 nav ul { 
@@ -24,7 +24,7 @@ nav ul li a{color: #AD9C7F;
     font-family: Arial;
     font-size: 24px;
     line-height:  55px;
-    padding: 0px; 20px;
+    padding-bottom: 30px;
     float: left;
 }
 a:hover {color: #554561;  
