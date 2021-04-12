@@ -8,6 +8,8 @@ nav p{color:#7C618F;
     font-size: 24px;
     line-height:  55px;
     padding-bottom: 30px;
+    padding-right: 20px;
+    
     float: left;
 }
 nav ul { 
@@ -16,15 +18,15 @@ nav ul {
 nav ul li{
     float: left;
     list-style-type: none;
-    padding-left: 35px;
-    padding-right: 15px;
-}
-nav ul li a{color: #AD9C7F;
+  
+nav ul li a {color: #AD9C7F;
     text-decoration: none;
     font-family: Arial;
     font-size: 24px;
     line-height:  55px;
     padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     float: left;
 }
 a:hover {color: #554561;  
