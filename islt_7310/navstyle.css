@@ -17,7 +17,7 @@ nav ul {
     padding-top: 10px;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    position: relative;
 }
 nav ul li{
     margin: 0.5em;
