@@ -14,14 +14,15 @@ nav p{color:#7C618F;
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding:0;
+    padding-bottom: 10px;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 nav ul li{
     margin: 0.5em;
     padding: 1.0em;
-    position: relative;
+   
 }
 a { color: #AD9C7F;
     text-decoration: none;
