@@ -11,12 +11,16 @@ nav p{color:#7C618F;
     padding-right: 40px;
     float: left;
 }
-nav ul { 
-    float: left;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: flex-end;
 }
 nav ul li{
-    float: left;
-    list-style-type: none;
+    margin: 0.5em;
+    padding: 1.0em;
     position: relative;
 }
 a { color: #AD9C7F;
@@ -51,27 +55,15 @@ nav ul li ul li {
 nav ul li ul li a:hover {
     background-color:#f3f3f3 
 }
-.center {
-    margin: auto;
-    width: 50%;
-  }
+footer ul { list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    margin: 0.5em;
+    padding: 0.5em;
+}
 #copyright {
     color: #7C618F;
-    font-size: 12px;
-    padding: 14px;
-    padding-right: 16px;
-    text-align:center;
 }
-footer ul li {
-    float: left;
-    list-style-type: none;
-    color: #7C618F;
-    position: relative;
-}
-footer ul li a {
-    display: inline-block;
-    font-size: 12px;
-    padding: 14px 10px;
-    text-decoration: none;
-    font-family: Arial; 
-} 
