@@ -1,60 +1,31 @@
 <head>
 	<title>CSS Grid</title>
 	<style>
-.wrapper {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            gap: 1em;
-            padding-bottom: 1em;
-}
-		.wrapper > * {
-			background: #7843ce;
-            padding: 0.5em;
-		 
-		}
         .container {
-            background: #7de993;
-            display:flex;
-            flex-wrap: wrap;
-            gap: 1em;
-        }
-        .container >* {
-            flex: 1 1 10em   
-        }
-
-        .new {
+            margin: 5rem;
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr;
-            grid-gap: 1em;
-        
+            grid-template-columns: 1fr 300px 3fr 1fr;
+            gap: 10px;
         }
-
+        .container >* { 
+            border: 1px solid  #7843ce;
+            border-radius: 3px;
+            padding: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
 	</style>
 </head>
-<body>
-    <header class="items">HEADER</header>
-		<nav class="items">NAV</nav> 
-	<div class="wrapper">
-        <div class="col">one apple</div>
-        <div class="col">two orange</div>
-        <div class="col">three grape</div>
-        <div class="col">four lime</div>	
+<body>	
     </div>
         <div class="container">
-         <div class="col">one</div>
-        <div class="col">two</div>
-        <div class="col">three</div>
-        <div class="col">four</div>	
+         <div class="col">blank</div>
+         <div class="col">blank2</div>
+         <div class="col">NAME</div>
+         <div class="col">blank4</div>
+         <div class="col">blank5</div>	
+         <div class="col">blankImage</div>
+        <div class="col">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat dolorum ipsam alias necessitatibus a, vel deleniti atque quis? Molestiae, similique eum beatae aliquid aspernatur, reprehenderit dolorum non labore voluptate quod facilis ipsum dicta sed delectus ipsa fugiat libero in.</div>
+         <div class="col">blank6</div>  
     </div>
-
-    <div class="new">
-        <div class="col">one apple</div>
-        <div class="col">two orange</div>
-        <div class="col">three grape</div>
-        <div class="col">four lime</div>	
-    <footer class="items">FOOTER</footer>
-
 </body>
 </html>
