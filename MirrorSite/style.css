@@ -2,12 +2,27 @@
     margin: 0;
     padding: 0;
 }
-h2 {color:#7C618F;
-    margin-left: 500px;
+  main, section {
+    padding:0rem 0rem 6rem 6rem;
 }
-h3 {color: #AD9C7F;
+  body {font-family: Arial
 }
-body {font-family: Arial;
+.title { text-align: left;
+    color:#7C618F
 }
-footer {color: #7C618F;
+.container{ 
+    display:flex;
+   width: 60ch;
+ }         
+ .split {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr;
+     padding: 1rem;
+     grid-gap: 1em;  
+ }
+
+  h3 {color: #AD9C7F;
+}
+  footer {color: #7C618F;
 }
