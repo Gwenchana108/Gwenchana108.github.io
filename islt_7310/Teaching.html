@@ -9,20 +9,24 @@
                   font-size: 200%;
                   color: #7C618F;
 }
+main, section {
+     padding:0rem 0rem 8rem 10rem;
+   }
+         .split {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            padding: 1rem;
+            grid-gap: 1em;  
+         }
+         .title { text-align: left;}
            #circle {
                width: 600px;
-          padding: 20px;
-          margin-left: 50px;
-          margin-bottom: 15px;
+          padding: 1rem;
+          margin-left: 2rem;
            }
            main #circle li {
-                padding: 0px 9px 5px 5px;}
-     #concept {
-          width: 800px;
-          padding: 20px;
-          margin-left: 800px;
-          margin-bottom: 15px;
-     }
+                padding: 0rem 0.1rem 0.4rem}
      </style>
 </head>
 <body>
@@ -44,17 +48,20 @@
           </nav>
  </header>
      <p><img src="photo/banner.jpg" alt="banner"  style="width:100%"></p>
-    <main>
-        <h2>teaching</h2>
-        <div id="concept"><p style="text-indent: 25px;">Creating ways to help others learn has always been something I love to do. I am very inquisitive by nature which has helped me be a person that constantly is trying to figure out the “how” and “why” of the way things work. I believe that this helps me to figure out ways to provide learning solutions. 
-        When it comes to learning, it is not always one-size-fits-all, so the challenge is to be flexible and constantly learning yourself, as you come up with ways to train others.</p><br>
-          <p style="text-indent: 25px;">
-        This is also one reason that I value working in groups for teaching and training solutions. When given the chance to work with a group that has the same goal, it is possible to come up with solutions that are exponentially better than you could have envisioned alone. Group work is challenging, but hopefully it does help you to see things in a different way or to see some of your own ideas with a new perspective.<p><br>
-          <p style="text-indent: 25px;">
+    
+    <main> <section>
+      <h2 class="title">teaching</h2>
+      <div class="container">  
+   <div class="split"> 
+        <div><p style="text-indent: 1em;">Creating ways to help others learn has always been something I love to do. I am very inquisitive by nature which has helped me be a person that constantly is trying to figure out the “how” and “why” of the way things work. I believe that this helps me to figure out ways to provide learning solutions. 
+        When it comes to learning, it is not always one-size-fits-all, so the challenge is to be flexible and constantly learning yourself, as you come up with ways to train others.</p></div>
+          <div><p style="text-indent: 1em;">
+        This is also one reason that I value working in groups for teaching and training solutions. When given the chance to work with a group that has the same goal, it is possible to come up with solutions that are exponentially better than you could have envisioned alone. Group work is challenging, but hopefully it does help you to see things in a different way or to see some of your own ideas with a new perspective.</p></div>
+        <div><p style="text-indent: 1em;">
         I am very competent with Adobe Photoshop, Illustrator, Audition and After Effects. I use these programs primarily to create the art, sound or video that I have needed to generate for training or teaching programs.</p>
-        <br>
-        <h3 style="text-indent: 25px;">A few more things to know about me:</h3>
-        <ul id= "circle">
+      </div>
+        <h3 style="text-indent: 1em;">A few more things to know about me:</h3>
+        <div><ul id= "circle">
             <li>Solid aptitude for educational technology and multimedia production</li>
             <li>Strong design skills for producing instructional materials and videos</li>
             <li>Great communication skills and a good team player</li>   
