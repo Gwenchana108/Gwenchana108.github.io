@@ -2,26 +2,19 @@
     margin: 0;
     padding: 0;
 }
-  main, section {
-    padding:0rem 0rem 6rem 6rem;
-}
   body {font-family: Arial
 }
 .title { text-align: left;
     color:#7C618F
+}.container {
+  margin: 0rem 0rem 5rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 2fr;
+  gap: 15px;
 }
-.container{ 
-    display:flex;
-   width: 60ch;
- }         
- .split {
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 1fr;
-     padding: 1rem;
-     grid-gap: 1em;  
- }
-
+.container >* { 
+  /*border: 1px solid  #7843ce;*/
+  padding: 10px;
   h3 {color: #AD9C7F;
 }
   footer {color: #7C618F;
