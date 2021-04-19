@@ -4,13 +4,15 @@
 }
   body {font-family: Arial
 }
-.title { text-align: left;
-    color:#7C618F
-}.container {
-  margin: 0rem 0rem 5rem 5rem;
-  display: grid;
-  grid-template-columns: 100px 1fr 3fr 2fr;
-  gap: 15px;
+.title {
+    color:#7C618F;
+    align-items: justify-left;
+}
+.container {
+  margin: 0rem 0rem 10rem 5rem;
+  display:grid;
+  grid-template-columns: 1fr 200px 80ch 1fr;
+  gap: 25px;
 }
 @media (max-width: 600px) {
   .container {
@@ -21,10 +23,10 @@
     gap: 1px;
   }
 .container >* { 
-  /*border: 1px solid  #7843ce;*/
-  padding: 10px;
+  <--!border: 1px solid  #7843ce;-->
+  padding: 10px;} 
+  
   h3 {color: #AD9C7F;
 }
-h3 
-  footer {color: #7C618F;
+  h3 footer {color: #7C618F;
 }
