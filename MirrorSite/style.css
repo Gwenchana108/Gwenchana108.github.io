@@ -2,27 +2,31 @@
     margin: 0;
     padding: 0;
 }
-  main, section {
-    padding:0rem 0rem 6rem 6rem;
-}
   body {font-family: Arial
 }
-.title { text-align: left;
-    color:#7C618F
+.title {
+    color:#7C618F;
+    align-items: justify-left;
 }
-.container{ 
-    display:flex;
-   width: 60ch;
- }         
- .split {
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 1fr;
-     padding: 1rem;
-     grid-gap: 1em;  
- }
-
+.container {
+  margin: 0rem 0rem 10rem 5rem;
+  display:grid;
+  grid-template-columns: 1fr 200px 80ch 1fr;
+  gap: 25px;
+}
+@media (max-width: 600px) {
+  .container {
+    margin: 0rem 0rem 5rem 2rem;
+    display: grid;
+    grid-template-columns: 0 0 300px 0px;
+    grid-template-rows: 0fr 1fr;
+    gap: 1px;
+  }
+.container >* { 
+  <--!border: 1px solid  #7843ce;-->
+  padding: 10px;} 
+  
   h3 {color: #AD9C7F;
 }
-  footer {color: #7C618F;
+  h3 footer {color: #7C618F;
 }
