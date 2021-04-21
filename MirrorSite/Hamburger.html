@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="utf-8"><title>Teaching</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    
+ <style>
+ 
+ #logo p{color:#7C618F;
+        font-family: Arial;
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding-left: 1.5rem; 
+        padding-right: 1.5rem;
+        padding-bottom: 0.5rem;
+        float: left;
+ 
+ /* [ON BIG SCREENS] */
+    /* Wrapper */
+
+    #hamnav {
+        height: 3.75rem;
+    background-color: white;
+      width: 100%;
+      position: fixed;
+
+    }
+    
+    /* Hide Hamburger */
+    #hamnav label, #hamburger { display: none; }
+    
+    /* Horizontal Menu Items */
+    #hamitems { display: flex; 
+    justify-content: flex-end;
+    list-style-type: none;
+    }
+
+    #hamitems a {
+        
+        width: 100%
+  padding: 10px;
+  color: #AD9C7F;
+  text-decoration: none;
+    }
+  width: 100%
+  padding: 10px;
+  color: #AD9C7F;
+  text-decoration: none;
+}
+    #hamitems a:hover {
+      background: #401408;
+    }
+    
+    /* [ON SMALL SCREENS] */
+    @media screen and (max-width: 768px){
+      /* Show Hamburger Icon */
+      #hamnav label { 
+        display: inline-block; 
+        color: white;
+        background: rgb(218, 190, 235);
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+      }
+    
+      /* Break down menu items into vertical */
+      #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #333;
+      }
+    
+      /* Toggle Show/Hide Menu */
+      #hamitems { display: none; }
+      #hamnav input:checked ~ #hamitems { display: block; }
+    }
+    
+    /* [DOES NOT MATTER] */ 
+    html, body { 
+      padding: 0; 
+      margin: 0; 
+      font-family: arial, sans-serif; 
+    }
+    
+    #hamnav a{
+      list-style-type: none;
+      margin: 0;
+      padding:0;
+      display: flex;
+      justify-content: flex-end;
+    }
+    * {
+    margin: 0;
+    padding: 0;
+}
+  body {font-family: Arial
+}
+.title {
+    color:#7C618F;
+}
+.container {
+  margin: 0rem 0rem 10rem 5rem;
+  display:grid;
+  grid-template-columns: 1fr 200px 80ch 1fr;
+  gap: 25px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0rem 0rem 5rem 2rem;
+    display: grid;
+    grid-template-columns: 0 0 300px 0px;
+    grid-template-rows: 0fr 1fr;
+    gap: 1px;
+  }
+
+.container >* { 
+  <--!border: 1px solid  #7843ce;-->
+  padding: 10px;} 
+  
+  h3 {color: #AD9C7F;
+}
+  h3 footer {color: #7C618F;
+  }
+         
+         
+    </style>
+    </head>
+<body>
+    <header>
+
+         <p id"="logo">Angela Jarecki</p>
+         <nav id="hamnav">
+              <!--[HAMBURGER]--> 
+              <label for="hamburger">&#9776;</label>
+              <input type="checkbox" id="hamburger"/>
+
+               <!--MENU ITEMS-->
+           
+              <ul>
+                   <div id= "hamitems">
+                  <li><a href="https://Gwenchana108.github.io/islt_7310/index.html ">home</a></li>
+                  <li><a href="https://Gwenchana108.github.io/islt_7310/about.html">about me</a></li>
+                    <li><a href="https://Gwenchana108.github.io/islt_7310/projects.html">projects</a>
+                      <ul>
+                          <li><a href="#">project 1</a></li>
+                              <li><a href="#">project 2</a></li>
+                         <li><a href="#">project 3</a></li>
+                    </ul>
+                  <li><a href="https://Gwenchana108.github.io/islt_7310/Teaching.html">teaching</a></li>
+                  <li><a href="https://Gwenchana108.github.io/islt_7310/contact.html">contact me</a></li> </div> 
+                 </ul>
+         </nav>
+</header>
+    <p><img src="photo/banner.jpg" alt="banner"  style="width:100%"></p>
+<main> 
+    <section>
+         <div class="container">     
+              <div class="col"></div>
+                 <div class="col"></div>
+                   <h2 class="title">about me</h2>
+                  <div class="col"></div>
+              <div class="col"></div>	
+           <div class="col"><img src="photo/photoAJ.jpg" alt="Angela"  style="width:100%" ></div>
+        <div class="col"><p>Hi, my name is <strong>Angela Jarecki</strong>! I live in the Southwest Houston area. I am an artist, a teacher, and mom to four children. I was an illustrator for Hallmark Greeting Cards for several years before setting out on my own as a freelance artist.</p><br>
+         <p>Along with illustrating books and cards, I teach online classes in sculpting, sewing, and drawing. Each course has written instruction, along with photos and videos that I design. Through these classes, I am able to provide a creative outlet for others and interact with people from all over the world.</p><br>
+         <p>I am also involved with Community Bible Study, where I am now the <em>Associate Teaching Director</em>.  As ATD, I train small group leaders, write curriculum, and help conduct yearly leadership training.</p><br>
+         <p>I am pursuing a Master’s degree from the University of Missouri in Instructional Design, that I will complete in spring of 2022. My undergraduate degree is from Columbus College of Art and Design. I have a bachelor's degree in Illustration with a minor in Advertising.</p><br>
+      <a href="Assets/JareckiResume.pdf" target="blank"><h3>My Resume</h3></a></div>
+    <div class="col"></div>
+ </section>  
+</main>
+<footer>
+    <ul>
+  <li id="copyright">All artwork and images &copy; 2021 Angela Jarecki, apjknb@umsystem.edu</li>
+    <li><a href="https://Gwenchana108.github.io/islt_7310/index.html ">home</a></li>
+      <li><a href="https://Gwenchana108.github.io/islt_7310/about.html">about me</a></li>
+        <li><a href="https://Gwenchana108.github.io/islt_7310/projects.html">projects</a>
+    <li><a href="https://Gwenchana108.github.io/islt_7310/Teaching.html">teaching</a></li>
+  <li><a href="https://Gwenchana108.github.io/islt_7310/contact.html">contact me</a></li> 
+ </ul>
+</footer>
+</body>
+</html>

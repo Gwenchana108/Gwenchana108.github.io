@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head><meta charset="utf-8"><title>Teaching</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    
+ <style>
+     body{ 
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+     }
+    header { 
+    left:0;
+    top:0;
+    width: 100%;
+        background: #ffffff;
+        text-align: left;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        padding-top: 10px;
+        margin: 0;
+     }
+        .logo {color:#7C618F;
+        font-family: Arial;
+        margin: 0;
+        margin-top: 3px;
+        margin-bottom: 2px;
+        margin-left: 3rem;
+ 
+}
+nav { position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    width:100%;
+    display: none;  
+}
+nav ul {margin:0;
+        padding: 0%;
+    list-style:none;
+}
+nav li { margin-bottom: 1em;
+    margin-left: 1em;   
+}
+nav a { color : #AD9C7F;
+text-decoration: none;
+font-size: 1.2rem;
+}
+nav a:hover {
+    color: #554561;
+}
+.nav-toggle:checked ~ nav{
+   display: block; 
+}
+.nav-toggle {display: none;
+}
+.nav-toggle-label { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    margin-top: 1rem;
+    height: 100%;
+    display: flex;
+    align-items; center;
+    color:#8147ad;
+}
+.nav-toggle-label span{
+    display: block;
+    width: 4rem; 
+    height: 100%; 
+}
+
+ @media screen and (min-width: 640px) {
+    .nav-toggle-label{
+        display: none;
+}
+header { display: grid;
+       grid-template-columns: 1fr auto minmax(600px) 3fr
+}
+.logo { grid-column: 1/span1;}
+
+nav {
+    all: unset;
+    grid-column: 2/3;
+    display: flex;
+    justify-content:flex-end;
+}
+ nav ul{
+      display: flex;
+     margin-left: 4rem;
+      margin-bottom: 0;
+}
+nav ul li{
+    margin:0.5rem;
+    padding: 0rem;
+    position:relative; 
+}
+    nav ul li a {
+    display: block;
+    font-family: Arial;
+    font-size: 1rem;
+    padding: 0.8rem 1.3rem; 
+}
+nav ul li ul{
+    display: none;
+    position:absolute;
+    top: 32px;
+    left: -4rem;
+    background-color: #fff;
+    padding: 0rem; */
+}
+nav ul li ul li a {
+    padding: 0.5rem;
+}
+nav ul li:hover ul {
+    display: block;
+    text-align: center;
+}
+nav ul li ul li {
+ width: 80px ;
+}
+nav ul li ul li a:hover {
+    background-color:#f3f3f3;
+    text-align: center;
+    
+ 
+.container >* { 
+  <--!border: 1px solid  #7843ce;-->
+  padding: 10px;} 
+  
+  h3 {color: #AD9C7F;
+}
+  h3 footer {color: #7C618F;
+  }     
+    </style>
+    </head>
+
+    <header>
+<h1 class="logo">Angela Jarecki</h1>
+<input type= "checkbox" id="nav-toggle" class="nav-toggle">
+         <nav> 
+              <ul>
+                  <li><a href="https://Gwenchana108.github.io/islt_7310/index.html ">home</a></li>
+                  <li><a href="https://Gwenchana108.github.io/islt_7310/about.html">about me</a></li>
+                    <li><a href="https://Gwenchana108.github.io/islt_7310/projects.html">projects</a>
+                      <ul>
+                          <li><a href="#">project 1</a></li>
+                              <li><a href="#">project 2</a></li>
+                         <li><a href="#">project 3</a></li>
+                    </ul>
+                  <li><a href="https://Gwenchana108.github.io/islt_7310/Teaching.html">teaching</a></li>
+                  <li><a href="https://Gwenchana108.github.io/islt_7310/contact.html">contact me</a></li> </div> 
+                 </ul>
+         </nav>
+         <label for="nav-toggle" class="nav-toggle-label">
+             <span>&#9776</span> </label>
+</header>
+    <p><img src="photo/banner.jpg" alt="banner"  style="width:100%"></p>
+<main> 
+    <section>
+         <div class="container">     
+              <div class="col"></div>
+                 <div class="col"></div>
+                   <h2 class="title">about me</h2>
+                  <div class="col"></div>
+              <div class="col"></div>	
+           <div class="col"><img src="photo/photoAJ.jpg" alt="Angela"  style="width:100%" ></div>
+        <div class="col"><p>Hi, my name is <strong>Angela Jarecki</strong>! I live in the Southwest Houston area. I am an artist, a teacher, and mom to four children. I was an illustrator for Hallmark Greeting Cards for several years before setting out on my own as a freelance artist.</p><br>
+         <p>Along with illustrating books and cards, I teach online classes in sculpting, sewing, and drawing. Each course has written instruction, along with photos and videos that I design. Through these classes, I am able to provide a creative outlet for others and interact with people from all over the world.</p><br>
+         <p>I am also involved with Community Bible Study, where I am now the <em>Associate Teaching Director</em>.  As ATD, I train small group leaders, write curriculum, and help conduct yearly leadership training.</p><br>
+         <p>I am pursuing a Master’s degree from the University of Missouri in Instructional Design, that I will complete in spring of 2022. My undergraduate degree is from Columbus College of Art and Design. I have a bachelor's degree in Illustration with a minor in Advertising.</p><br>
+      <a href="Assets/JareckiResume.pdf" target="blank"><h3>My Resume</h3></a></div>
+    <div class="col"></div>
+ </section>  
+</main>
+<footer>
+    <ul>
+  <li id="copyright">All artwork and images &copy; 2021 Angela Jarecki, apjknb@umsystem.edu</li>
+    <li><a href="https://Gwenchana108.github.io/islt_7310/index.html ">home</a></li>
+      <li><a href="https://Gwenchana108.github.io/islt_7310/about.html">about me</a></li>
+        <li><a href="https://Gwenchana108.github.io/islt_7310/projects.html">projects</a>
+    <li><a href="https://Gwenchana108.github.io/islt_7310/Teaching.html">teaching</a></li>
+  <li><a href="https://Gwenchana108.github.io/islt_7310/contact.html">contact me</a></li> 
+ </ul>
+</footer>
+</body>
+</html>
