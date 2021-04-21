@@ -23,7 +23,7 @@
     gap: 1px;
   }
 
-.container >* { 
+.container>* { 
   <--!border: 1px solid  #7843ce;-->
   padding: 10px;} 
   

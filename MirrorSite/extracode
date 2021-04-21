@@ -1,0 +1,13 @@
+
+}
+@media screen and (max-width: 667px) {
+   footer li a{
+        display: none;
+    }
+    #copyright  { display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+       
+     }
+     #copyright { grid-column: 1/1;
+        color: #7C618F;} 
+     
