@@ -34,7 +34,7 @@ nav ul {margin:0;
     padding: 0%;
 list-style:none;
 }
-nav li { margin-bottom: 2em;
+nav li { margin-bottom: 1em;
 margin-left: 1em;   
 }
 nav a { color : #AD9C7F;
@@ -64,6 +64,9 @@ color:#8147ad;
 display: block;
 width: 4rem; 
 height: 100%; 
+}
+nav .sub {
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 640px) {
