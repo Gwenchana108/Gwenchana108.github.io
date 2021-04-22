@@ -90,12 +90,10 @@ justify-content:flex-end;
 nav ul{
   display: flex;
  margin-left: 4rem;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
 }
 nav ul li{
-margin-left:0.5rem;
-margin-left:0.5rem;
-margin-bottom: 1em;
+margin:0.5rem;
 padding: 0rem;
 position:relative; 
 }
