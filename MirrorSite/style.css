@@ -21,14 +21,14 @@
     grid-template-columns: 0 0 300px 0px;
     grid-template-rows: 0fr 1fr;
     gap: 1px;
-  }
+  } }
 
-.container>* { 
-  <--!border: 1px solid  #7843ce;-->
-  padding: 10px;} 
+.container >* { 
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+} 
   
 h3 {color: #AD9C7F;
     text-decoration: none;
 }
-  h3 footer {color: #7C618F;
-  }

@@ -24,11 +24,11 @@
   } }
 
 .container >* { 
-  padding: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 } 
   
 h3 {color: #AD9C7F;
     text-decoration: none;
 }
-  h3 footer {color: #7C618F;
-  }
