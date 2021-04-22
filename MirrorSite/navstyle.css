@@ -106,7 +106,7 @@ padding: 0.8rem 1.3rem;
 nav ul li ul{
 display: none;
 position:absolute;
-top: 25px;
+top: 0px;
 left: -4rem;
 background-color: #fff;
 padding: 0rem; 
