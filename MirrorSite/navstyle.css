@@ -21,7 +21,7 @@ width: 100%;
     margin-top: 3px;
     margin-bottom: 2px;
     margin-left: 3rem;
-}
+} 
 nav { position: absolute;
 text-align: left;
 top: 100%;
@@ -125,6 +125,10 @@ nav ul li ul li a:hover {
 background-color:#f3f3f3;
 text-align: center;   
 }
+@media screen and (max-width: 740px) {
+    nav ul li ul li { display: none;
+    }
+}
 footer ul { list-style-type: none;
     text-decoration: none;
     display: flex;
@@ -159,5 +163,4 @@ footer li a {
         text-align: center;
        grid-template-columns: 0.5fr 0.5fr;
     }
-  
-    
+   
