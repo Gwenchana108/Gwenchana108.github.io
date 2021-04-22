@@ -39,7 +39,7 @@ margin-left: 1em;
 }
 nav a { color : #AD9C7F;
 text-decoration: none;
-font-size: 1rem;
+font-size: 1.2rem;
 }
 nav a:hover {
 color: #554561;
@@ -112,14 +112,14 @@ background-color: #fff;
 padding: 0rem; 
 }
 nav ul li ul li a {
-padding: 0.5rem;
+padding: 0rem;
 }
 nav ul li:hover ul {
 display: block;
 text-align: center;
 }
 nav ul li ul li {
-width: 80px ;
+width: 90px ;
 }
 nav ul li ul li a:hover {
 background-color:#f3f3f3;
