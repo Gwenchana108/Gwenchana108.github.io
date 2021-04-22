@@ -144,3 +144,16 @@ footer li a {
 #copyright {
     color: #7C618F;
 } }
+@media screen and (max-width: 640px) {
+    footer li a{
+        display: none;
+    } }
+    
+    #copyright {
+        color: #7C618F; 
+        display: flex;
+        text-align: center;
+       grid-template-columns: 0.5fr 0.5fr;
+    }
+  
+    
