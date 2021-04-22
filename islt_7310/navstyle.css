@@ -4,9 +4,9 @@ body{
     font-family: Arial;
  }
 header { 
-    left:0;
-    top:0;
-    width: 100%;
+left:0;
+top:0;
+width: 100%;
     background: #ffffff;
     text-align: left;
     position: fixed;
@@ -70,13 +70,19 @@ height: 100%;
 .nav-toggle-label{
     display: none;
 } 
+
 header { display: grid;
    grid-template-columns: 0.5fr 0.5fr;
 }
-.logo { grid-column: 1/1;
-}
+.logo { grid-column: 1/1;}
+
 nav {
-all: unset;
+    position: unset;
+text-align: unset;
+top: unset;
+left: unset;
+background: #ffff;
+width:unset;
 grid-column: 2/2;
 display: flex;
 justify-content:flex-end;
@@ -137,4 +143,4 @@ footer li a {
 }
 #copyright {
     color: #7C618F;
-}}
+} }

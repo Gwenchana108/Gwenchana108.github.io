@@ -21,11 +21,11 @@
     grid-template-columns: 0 0 300px 0px;
     grid-template-rows: 0fr 1fr;
     gap: 1px;
-  }
+  } }
 
 .container >* { 
-  <--!border: 1px solid  #7843ce;-->
-  padding: 10px;} 
+  padding: 10px;
+} 
   
 h3 {color: #AD9C7F;
     text-decoration: none;

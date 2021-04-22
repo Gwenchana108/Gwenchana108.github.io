@@ -77,7 +77,12 @@ header { display: grid;
 .logo { grid-column: 1/1;}
 
 nav {
-all: unset;
+    position: unset;
+text-align: unset;
+top: unset;
+left: unset;
+background: #ffff;
+width:unset;
 grid-column: 2/2;
 display: flex;
 justify-content:flex-end;
@@ -138,3 +143,4 @@ footer li a {
 }
 #copyright {
     color: #7C618F;
+} }
