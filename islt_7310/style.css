@@ -2,8 +2,15 @@
     margin: 0;
     padding: 0;
 }
+@font-face { 
+  font-family: montserrat;
+ src: url(fonts/Montserrat-Bold.otf); 
+}
   body {font-family: Arial
 }
+.logo{
+  font-family: montserrat;
+ }
 .title {
     color:#7C618F;
 }
