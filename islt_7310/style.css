@@ -4,12 +4,13 @@
 }
 @font-face { 
   font-family: montserrat;
- src: url(fonts/Montserrat-Bold.otf); 
+ src: url(fonts/Montserrat-Bold.otf);
+ font-family:'Montserrat', sans-serif; 
 }
   body {font-family: Arial
 }
 .logo{
-  font-family: montserrat;
+  font-family:'Montserrat', sans-serif; 
  }
 .title {
     color:#7C618F;
