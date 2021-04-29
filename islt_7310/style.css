@@ -6,7 +6,7 @@
   font-family: "montserrat";
  src: url(fonts/Montserrat-Bold.otf);
  font-style: bold;
-
+font-weight: 600;
 }
   body {font-family: Arial
 }
