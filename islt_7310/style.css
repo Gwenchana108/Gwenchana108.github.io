@@ -5,7 +5,8 @@
 @font-face { 
   font-family: "montserrat";
  src: url(fonts/Montserrat-Bold.otf);
- font-family:'Montserrat', sans-serif; 
+ font-style: bold;
+
 }
   body {font-family: Arial
 }
