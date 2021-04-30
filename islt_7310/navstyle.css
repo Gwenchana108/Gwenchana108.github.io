@@ -148,7 +148,7 @@ footer li a {
     color:#AD9C7F;
     text-decoration: none;
 }
-#copyright {
+.copyright {
     color: #7C618F;
     font-size: 1rem;
     margin-bottom: 0.5rem;
@@ -165,8 +165,10 @@ footer li a {
     .sub{ display: none;} 
 }
     
-    #copyright {
+    .copyright {
         color: #7C618F; 
+        list-style-type: none;
+    text-decoration: none;
         margin-left:15px;
         display: flex;
         text-align: center;
