@@ -146,7 +146,8 @@ footer li a {
     color:#AD9C7F;
     text-decoration: none;
 }
-#copyright {
+#copyright
+#copyright a {
     color: #7C618F;
 } }
 @media screen and (max-width: 640px) {
