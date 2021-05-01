@@ -53,10 +53,6 @@ footer {
   .video { 
     width: 280px;
 
-}
-.copyright {
-
-}
  }
 
 .container >* { 
@@ -112,6 +108,4 @@ text-align: center;
 }
 .college{
 margin-left: 15px;
-}
-
 }
