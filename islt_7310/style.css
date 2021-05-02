@@ -110,3 +110,28 @@ text-align: center;
 }
 .college{
 margin-left:15px;}}
+
+table{
+  width: 400px;
+}
+
+th, caption {
+  text-align: left;
+
+}
+
+table,
+th, 
+td { border: 1px solid #7C618F;
+border-collapse: collapse; }
+
+th, 
+td { padding: 10px;}
+
+
+tr:nth-child(odd) {
+  background-color: #f7e6ca; 
+}
+tr:nth-child(even) {
+  background-color: #edcaf7; 
+}
