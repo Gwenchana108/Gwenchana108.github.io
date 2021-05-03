@@ -42,6 +42,66 @@
       display:flex;
      
       }
+
+      section{
+      height:100%;
+      width:100%;
+      display:flex;
+      /*align-items: center;*/
+     justify-content: center;
+      font-family:Arial, sans-serif;
+      color: #865c17;
+
+      }
+      .contact{
+     width: 90%;
+     max-width: 500px;
+     margin:0 auto;
+     padding: 15px;
+     box-shadow: 0px 0px 20px #00000040;
+     background-color: #fdf6eb;
+     border-radius: 8px;
+     margin-bottom: 20px;
+      }
+      
+    .form-group{ 
+    width: 100%;
+    margin-top:10px;
+    font-size: 20px;
+
+    }
+   
+    .form-group input,
+    .form-group textarea{
+      width:100%;
+      padding: 2px;
+      font-size: 18px;
+      border: 1px solid #beb29d;
+      margin-top:3px;}
+
+      textarea{
+        resize: vertical;
+      }
+      button[type="submit"]{
+        width:100%;
+        border:none;
+        outline:none;
+        padding:20px;
+        font-size: 20px;
+        border-radius: 8px;
+        color: #865c17;
+        background-color: #f5e4cc;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 10px;
+ }
+   button[type="submit"]:hover{
+    background-color: #eec085;
+    transition: .3s ease background-color;
+   }
+
+
+
     
      </style>
 </head>
@@ -103,7 +163,49 @@
 
             <div class="col"></div>
               <div class="col"></div>
-               <div class="col"></div>
+               <div class="col">
+               
+                <section>
+                  <div class="contact">
+                <form action="mailto:ajarecki@comcast.net?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain"></form>
+
+                  <div class="form-group">
+                  <label for="firstname">first name</label> 
+                  <input type="text" id="firstname" name="first name" required></div>
+               
+
+                  <div class="form-group">
+                    <label for="lastname">last name</label> 
+                    <input type="text" id="lastname" name="last name" required>
+                  </div>
+
+                  <div class="form-group">
+                  <label for="email">email address</label>
+                  <input type="email" name="email" id="email"  required> 
+                  </div>
+
+                <div class="form-group">
+                  <label for="message">message</label>
+                  <textarea name="message" id="message"   rows="7"></textarea></div>
+
+                
+                  <button type="submit">submit</button>
+           
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+               </div>
 
 
 
