@@ -112,7 +112,7 @@ text-align: center;
 margin-left:15px;}}
 
 table{
-  width: 400px;
+  width: 500px;
 }
 
 th, caption {
@@ -133,5 +133,5 @@ tr:nth-child(odd) {
   background-color: #f7e6ca; 
 }
 tr:nth-child(even) {
-  background-color: #edcaf7; 
+  background-color: #d3e4eb; 
 }
