@@ -12,13 +12,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
 
    a { color: #AD9C7F;
-    text-decoration: none;}
+    text-decoration: none;}    
     
-    }
     @font-face { 
   font-family: "Antonio";
  src: url(fonts/Antonio-Light.ttf);
-
 }
     .logo{
   font-family:'Antonio', sans-serif;
@@ -36,6 +34,40 @@
         #icons1:hover {
     transform: scale(1.3);
       }
+      .table{
+        margin:0;
+        margin-bottom: 0;
+        margin-left: 0;
+        padding:0;
+        font-size: 12pt;
+     
+      display:flex; 
+      }
+
+table{
+  width: 800px;
+}
+
+th, caption {
+  text-align: left;
+
+}
+
+table,
+th, 
+td { border: 1px solid #7C618F;
+border-collapse: collapse; }
+
+th, 
+td { padding: 5px;}
+
+
+tr:nth-child(odd) {
+  background-color: #f7e6ca; 
+}
+tr:nth-child(even) {
+  background-color: #d3e4eb; 
+}
       .video{
   width: 100%;
   height: auto;
@@ -84,17 +116,33 @@
           <p>I am also involved with Community Bible Study, where I am now the <em>Associate Teaching Director</em>.  As ATD, I train small group leaders, write curriculum, and help conduct yearly leadership training.</p><br>
           <p>I am pursuing a Master’s degree from the University of Missouri in Instructional Design, that I will complete in spring of 2022. My undergraduate degree is from Columbus College of Art and Design. I have a bachelor's degree in Illustration with a minor in Advertising.</p>
      <br><br>
-          <ul class="college">
-               <li><p><strong>Columbus College of Art and Design,</strong>Columbus, OH<br>Bachelor of Fine Arts in Illustration - <em>magna cum laude</em></p></li>
-               
-               <li><p><strong> University of Missouri,</strong>Columbia, MO<br>Currently attending</p></li>
-          </ul>
+     <div class="table">
+          <table>
+          <caption>Education</caption>
+          <tr> 
+          <th> School</th>
+          <th> Degree</th>
+          <th> Location</th>
+          </tr>
+                  <tr>
+                  <td>Columbus College of Art and Design </td>
+                  <td>Bachelor of Fine Arts in Illustration,magna cum laude</td>
+                  <td>Columbus, OH</td>
+                  </tr>
+ 
+                        <tr>
+                        <td>University of Missouri </td>
+                        <td>currently attending</td>
+                        <td>Columbia, MO</td>
+                        </tr>
+                        </table></div>
+            <div class="col"></div>
+            <div class="col"></div>
+         
           <br><br>
              <a href="Assets/JareckiResume.pdf" target="blank" class="pdf"><h2>My Resume</h2></a>
-     <br><br>
      <br>
-     
-     <blockquote class= "quote"><em>"Integrity is doing the right thing even when no one is watching.</em>  C.S. Lewis"</blockquote> 
+    
      </div>
      <div class="col"></div>
      <div class="col"></div>

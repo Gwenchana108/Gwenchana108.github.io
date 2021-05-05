@@ -24,10 +24,7 @@
   display:grid;
   grid-template-columns: 1fr 200px 80ch 1fr;
   gap: 25px;
-}
 
-.college{
-  line-height: 24px;
 }
 .video {
   margin: 0;
@@ -108,30 +105,4 @@ body {
 text-align: center;
 
 }
-.college{
-margin-left:15px;}}
-
-table{
-  width: 500px;
-}
-
-th, caption {
-  text-align: left;
-
-}
-
-table,
-th, 
-td { border: 1px solid #7C618F;
-border-collapse: collapse; }
-
-th, 
-td { padding: 10px;}
-
-
-tr:nth-child(odd) {
-  background-color: #f7e6ca; 
-}
-tr:nth-child(even) {
-  background-color: #d3e4eb; 
-}
+ }
