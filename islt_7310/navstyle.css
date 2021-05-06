@@ -34,7 +34,7 @@ width:100%;
 display: none;  
 }
 nav ul {margin:0;
-    padding: 20px;
+    padding: 10px;
 list-style:none;
 }
 nav li { margin-bottom: 1em;
@@ -127,14 +127,15 @@ width: 90px ;
 nav ul li ul li a:hover {
 background-color:#f3f3f3;
 text-align: center;   
-}
 
+ }
 footer ul { list-style-type: none;
     text-decoration: none;
     display: flex;
     justify-content: center;
     margin: 0.5rem;
     padding: 0.5rem;
+    
 }
 footer li {
     font-size: 1rem;
