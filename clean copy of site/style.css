@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face { 
+  font-family: "Antonio";
+ src: url(fonts/Antonio-Light.ttf);
+
+}
+    .logo{
+  font-family:'Antonio', sans-serif;
+  font-style: normal; 
+ }
+  body {font-family: Arial;
+ 
+}
+
+
+.title {
+    color:#7C618F;
+}
+.container {
+  margin: 0rem 0rem 10rem 5rem;
+  display:grid;
+  grid-template-columns: 1fr 200px 80ch 1fr;
+  gap: 25px;
+
+}
+.video {
+  margin: 0;
+}
+footer {
+  font-size: 1rem;
+  text-align: center;
+}
+  #footerspace {
+    margin: 0;
+    padding: 0;
+   background-image: url(photo/footerimage.png);
+   width: 100%;
+   height: 80px; 
+ }
+
+@media (max-width: 600px) {
+  .container {
+    margin: 0rem 0rem 5rem 2rem;
+    display: grid;
+    grid-template-columns: 0 0 300px 0px;
+    grid-template-rows: 0fr 1fr;
+    gap: 1px;
+  }
+  .video { 
+    width: 280px;
+
+ }}
+
+.container >* { 
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+} 
+.quote { 
+  color: #7C618F;
+} 
+.pdf h3 {color: #AD9C7F;
+    text-decoration: none;
+}
+ @media print { 
+  *{
+     background: transparent !important;
+     color: #000 !important;    
+} 
+@page{
+     margin: 1in;
+}
+.logo{
+     margin:0;
+     text-align: center;
+}
+.container {
+     margin: unset;
+     display: unset;
+     grid-template-columns: unset;
+     grid-template-rows: unset;
+     gap: unset;
+}
+nav,
+img,
+a,
+.title,
+.nav-toggle-label,
+footer a { 
+   display: none;
+}
+body {
+     margin-top: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 12pt;
+     line-height: 18pt;
+     background: none;
+     text-align: left;
+}
+
+.quote { 
+text-align: center;
+
+}
+ }
