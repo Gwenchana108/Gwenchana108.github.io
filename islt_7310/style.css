@@ -21,9 +21,10 @@
     color:#7C618F;
 }
 .container {
-  margin: 0rem 0rem 10rem 5rem;
-  display:grid;
-  grid-template-columns: 1fr 200px 80ch 1fr;
+  margin-top:5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+
   gap: 25px;
 
 }
