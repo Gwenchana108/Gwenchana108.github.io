@@ -1,50 +1,91 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-     <meta charset="utf-8"><title>Program</title>
-    <meta name="viewport" content="width=device-width initial-scale=1">
+     <meta charset="utf-8"><title>Resume</title>
+     <meta name="viewport" content="width=device-width initial-scale=1">
      <link rel="stylesheet" href="navstyle.css">
      <link rel="stylesheet" href="style.css">
      <link rel="shortcut icon" type="image/png" href="photo/favicon.png">
      <style>
 
+
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
 
-   a { color: #AD9C7F;
-    text-decoration: none;}    
+a { text-decoration: none;}    
     
-    @font-face { 
+
+@font-face { 
   font-family: "Antonio";
  src: url(fonts/Antonio-Light.ttf);
+
 }
     .logo{
   font-family:'Antonio', sans-serif;
   font-style: normal; 
+  text-decoration: none;
  }
+      
+
+      section{
+      height:100%;
+      width:100%;
+      display:flex;
+      align-items: center;
+     justify-content: center;
+      font-family:Arial, sans-serif;
+      color: #865c17;
+
+      }
+      .contact{
+     width: 90%;
+     max-width: 900px;
+     margin:0 auto;
+     padding:15px;
+     box-shadow: 0px 0px 20px #00000040;
+     background-color: #fdf6eb;
+     border-radius: 8px;
+     margin-bottom: 20px;
+      }
+      
+    .form-group{ 
+    width: 100%;
+    margin-top:10px;
+    font-size: 20px;
+
+    }
+   
+    .form-group input,
+    .form-group textarea{
+      width:100%;
+      padding: 2px;
+      font-size: 18px;
+      border: 1px solid #beb29d;
+      margin-top:3px;}
+
+      textarea{
+        resize: vertical;
+      }
+      button[type="submit"]{
+        width:100%;
+        border:none;
+        outline:none;
+        padding:20px;
+        font-size: 20px;
+        border-radius: 8px;
+        color: #865c17;
+        background-color: #f5e4cc;
+        text-align: center;
+        cursor: pointer;
+        margin-top: 10px;
+ }
+   button[type="submit"]:hover{
+    background-color: #eec085;
+    transition: .3s ease background-color;
+   }
 
 
-table{
-  max-width: 1200px;
-}
 
-th, caption {
-  text-align: left;
-
-}
-
-table,
-th, 
-td { border: 1px solid #7C618F;
-border-collapse: collapse; 
-overflow: scroll;}
-
-th, 
-td { padding: 5px;}
-
-
-
-}
-
+    
      </style>
 </head>
 <body>
@@ -71,50 +112,64 @@ td { padding: 5px;}
       </nav>
           <label for="nav-toggle" class="nav-toggle-label">
                <span>&#9776;</span> </label>
-</header>
+ </header>
      <p><img src="photo/banner.jpg" alt="banner"  style="width:100%"></p>
-<main> 
-     <section>
-          <div class="container">   
-                    <h2 class="title">Program</h2>
-         <div class="col"><p>Hi, my name is <strong>Angela Jarecki</strong>! I live in the Southwest Houston area. I am an artist, a teacher, and mom to four children. I was an illustrator for Hallmark Greeting Cards for several years before setting out on my own as a freelance artist.</p><br>
-          <p>Along with illustrating books and cards, I teach online classes in sculpting, sewing, and drawing. Each course has written instruction, along with photos and videos that I design. Through these classes, I am able to provide a creative outlet for others and interact with people from all over the world.</p><br>
-          <p>I am also involved with Community Bible Study, where I am now the <em>Associate Teaching Director</em>.  As ATD, I train small group leaders, write curriculum, and help conduct yearly leadership training.</p><br>
-          <p>I am pursuing a Master’s degree from the University of Missouri in Instructional Design, that I will complete in spring of 2022. My undergraduate degree is from Columbus College of Art and Design. I have a bachelor's degree in Illustration with a minor in Advertising.</p>
-     <br><br>
-     <div class="table">
-          <table>
-          <caption>Education</caption>
-          <tr> 
-          <th>Course</th>
-          <th>Term</th>
-          <th>Type</th>
-          <th>Description</th>
-          <th>Grade</th>
-          </tr>
-                  <tr>
-                  <td>Columbus College of Art and Design </td>
-                  <td>Bachelor of Fine Arts in Illustration,magna cum laude</td>
-                  <td>Columbus, OH</td>
-                  </tr>
- 
-                        <tr>
-                        <td>University of Missouri </td>
-                        <td>currently attending</td>
-                        <td>Columbia, MO</td>
-                        </tr>
-                        </table></div>
+     <main> 
+      <section>
+        <div class="container">  
+             <div class="col"></div>
+                <div class="col"></div>
+                  <h2 class="title">resume</h2>
+                     <div class="col"></div>
+                 
+            <div class="col"></div>	
+               <div class="col"><img src="photo/house.jpg" alt="home" style="width:100%" ></div>
+               <div class="col">
+               
+                <section>
+                  <div class="contact">
+                <form action="mailto:ajarecki@comcast.net?Subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+
+                  <div class="form-group">
+                  <label for="firstname">first name</label> 
+                  <input type="text" id="firstname" name="firstname" required></div>
+               
+
+                  <div class="form-group">
+                    <label for="lastname">last name</label> 
+                    <input type="text" id="lastname" name="lastname" required>
+                  </div>
+
+                  <div class="form-group">
+                  <label for="email">email address</label>
+                  <input type="email" name="email" id="email" required> 
+                  </div>
+
+                <div class="form-group">
+                  <label for="message">message</label>
+                  <textarea name="message" id="message"  rows="7"></textarea></div>
+
+                
+                  <button type="submit">submit</button></form>
+           
+                </div>
+            </section>
+
+               </div>
+                      <div class="col"></div>
+
             <div class="col"></div>
-            <div class="col"></div>
-      
-    
-     </div>
-     <div class="col"></div>
-     <div class="col"></div>
-     <div class="col"></div>
-     
-  </section>  
-</main>
+              <div class="col"></div>
+               
+
+
+                 <div class="col"></div></div>
+
+        </section> 
+      </main>
+
+                      
+                      
 <footer>
      <div class="footerspace" id="footerspace">
       <ul> 
@@ -128,6 +183,6 @@ td { padding: 5px;}
         <li><a href="https://Gwenchana108.github.io/islt_7310/contact.html">contact me</a></li> 
        </ul>
           </div>
-</footer>
+ </footer>
 </body>
 </html>
