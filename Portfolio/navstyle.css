@@ -179,6 +179,7 @@ footer li a {
         margin-left: 1500px;
         display: flex;
         text-align: justify right;
+        justify-content:right
        grid-template-columns: 0.5fr 0.5fr;
     }
   
