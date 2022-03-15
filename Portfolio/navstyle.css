@@ -105,7 +105,7 @@ nav ul li a {
 display: block;
 font-family: Arial;
 font-size: 1rem;
-padding: 0.8rem 1.3rem; 
+padding: 0.8rem 1rem; 
 }
 nav ul li ul{
 display: none;
@@ -176,10 +176,10 @@ footer li a {
         color: #7C618F; 
         list-style-type: none;
     text-decoration: none;
-        margin-left: 1500px;
+        margin-left: 10px;
         display: flex;
-        text-align: justify right;
-        justify-content:right
+        text-align: justify left;
+        justify-content:left
        grid-template-columns: 0.5fr 0.5fr;
     }
   
