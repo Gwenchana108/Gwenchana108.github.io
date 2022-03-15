@@ -4,18 +4,16 @@
 }
 
 @font-face { 
-  font-family: "Antonio";
- src: url(fonts/Antonio-Light.ttf);
+  font-family: "Avenir";
+ src: url(fonts/AvenirLTStd-Medium.otf);
 
 }
     .logo{
-  font-family:'Antonio', sans-serif;
-  font-style: normal; 
+  font-family:'Avenir', sans-serif;
  }
   body {font-family: Arial;
  
 }
-
 
 .title {
     color:#707070;
