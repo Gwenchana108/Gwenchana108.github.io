@@ -17,7 +17,7 @@ width: 100%;
     padding-top: 10px;
     margin: 0;
  }
-   .logo {color:#7C618F;
+   .logo {color:#000000;
         font-family:'Antonio', sans-serif;
         font-style: normal; 
     margin: 0;
@@ -40,12 +40,12 @@ list-style:none;
 nav li { margin-bottom: 1em;
 margin-left: 1em;   
 }
-nav a { color : #AD9C7F;
+nav a { color : #989898;
 text-decoration: none;
 font-size: 1.2rem;
 }
 nav a:hover {
-color: #554561;
+color: #4e3463;
 }
 .nav-toggle:checked ~ nav{
 display: block; 
