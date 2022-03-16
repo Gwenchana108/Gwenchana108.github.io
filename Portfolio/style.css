@@ -26,6 +26,16 @@
      text-align: center;
 }
 
+.title2 {
+     color:#707070;
+     margin-top: 50px;
+      font-family: Avenir;
+      font-weight: 400;
+      font-size: 36pt;
+      line-height: 40pt;
+      background: none;
+      text-align: center;
+
 .even-columns  {
   display: flex;
 }
