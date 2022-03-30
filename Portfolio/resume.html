@@ -24,15 +24,52 @@ font-weight: 500;
       section{
       height:100%;
       width:100%;
-      margin-left: 250px;
-      margin-bottom: 100px;
-      display:flex;
+   
     
      
       font-family:Avenir_35_Light.ttf;
       color: #865c17;
 
       }
+
+  
+
+      .paragraph{
+display:grid;
+gap:1.5rem;
+grid-template-columns: repeat(6, 1fr);
+font-family:'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 14pt;
+line-height: 24pt;
+margin-top: 30px;
+margin-left: 420px;
+margin-right: 420px;
+margin-bottom: 120px;]
+
+
+}
+.grid-col-span-1 {
+  grid-column: span 1;
+}
+.grid-col-span-2{ 
+  grid-column: span 2;
+} 
+.grid-col-span-3,
+.grid-col-span-3p { 
+  grid-column: span 3;
+} 
+.grid-col-span-4 { 
+  grid-column: span 4;  
+} 
+.grid-col-span-5 { 
+  grid-column: span 6;
+}  
+.grid-col-span-3p {font-size: 14pt;
+font-weight: 400;}
+
+
+
      </style>
 </head>
 <body>
@@ -62,10 +99,16 @@ font-weight: 500;
  </header>
     >
      <main> 
+      
       <h2 class="title">Resume</h2>
       <section>
+        <div class="paragraph"> 
           
-           <div class="col"><img src="photo/resume.png" alt="home" style="width:75%" ></div>
+        <div class="grid-col-span-5"><img src="photo/resume2.png" alt="home" style="width:100%" ></div>
+       
+        
+        <div class="grid-col-span-2"></div>
+        <div class="grid-col-span-4"><a href="Assets/JareckiResume.pdf" target="blank" class= "resume"><h3>My Resume</h3></a></div>
               
         </section> 
       </main>
